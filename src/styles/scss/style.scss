@@ -1,0 +1,15 @@
+$border: 2px solid yellow;
+
+h1{
+  color: black;
+
+  & span{
+    background: red;
+    border: $border;
+  }
+}
+
+.lorem4{
+  border: $border;
+  padding: 27em;
+}
