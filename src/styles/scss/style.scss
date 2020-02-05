@@ -1,7 +1,18 @@
+@import "~bootstrap-scss";
+
 $border: 2px solid yellow;
+
+.container{
+  @include media-breakpoint-up('lg')
+  {
+    background: green;
+  }
+}
 
 h1{
   color: black;
+
+
 
   & span{
     background: red;

@@ -113,7 +113,7 @@ module.exports = {
       '@babel/polyfill',
       './index.js',
     ],
-    analytics: './analytics.js',
+    // other: './other.js',
   },
   output: {
     filename: getFileName('js'),
